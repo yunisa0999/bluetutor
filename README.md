@@ -65,7 +65,7 @@ The app uses the Next.js App Router (`app/` directory), with lesson and quiz con
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/BlueTutor.git
+git clone https://github.com/yunisa0999/bluetutor.git
 cd BlueTutor
 ## Credits
 
