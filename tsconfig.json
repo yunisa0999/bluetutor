@@ -16,7 +16,7 @@
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react-jsx",
+    "jsx": "preserve",
     "plugins": [
       {
         "name": "next"
@@ -29,8 +29,9 @@
     ".next/dev/types/**/*.ts",
     "**/*.mts",
     "**/*.ts",
-    "**/*.tsx"
-, "app/lessons/climate/page.jsx"  ],
+    "**/*.tsx",
+    "app/lessons/climate/page.jsx"
+  ],
   "exclude": [
     "node_modules"
   ]
