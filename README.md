@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
 
 ## Getting Started
 
@@ -13,24 +13,61 @@ pnpm dev
 # or
 bun dev
 ```
+# BlueTutor – SDG 14: Life Below Water
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**BlueTutor** is a web app developed by **Eunice Medalla Gojit** to educate users about **Sustainable Development Goal 14 (Life Below Water)**. The app provides an interactive and readable lesson page about ocean conservation, marine biodiversity, and actionable steps to protect marine life.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Tech Stack
 
-## Learn More
+- **Next.js 13** (App Router) – React framework for server and client rendering
+- **React** – UI component library
+- **Tailwind CSS** – Utility-first CSS framework for styling
+- **Heroicons** – Icon set used for navigation buttons
+- **Node.js** – JavaScript runtime for backend and build processes
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The app uses the Next.js App Router (`app/` directory), with lesson and quiz content organized by topics:
 
-## Deploy on Vercel
+- `app/lessons/` — Contains lesson pages by topic:
+  - `biodiversity/page.jsx`
+  - `climate/page.jsx`
+  - `coral/page.jsx`
+  - `energy/page.jsx`
+  - `marin/page.jsx` *(consider renaming to `marine` for consistency)*
+  - `ocean/page.jsx`
+  - `sdg14/page.jsx` (Main SDG 14 lesson page)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `app/quiz/` — Contains quizzes related to the lesson topics:
+  - `biodiversity/page.jsx`
+  - `climatechange/page.jsx`
+  - `coralreefs/page.jsx`
+  - `marinelife/page.jsx`
+  - `oceanpollution/page.jsx`
+  - `renewableenergy/page.jsx`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## How to navigate
+
+- The main SDG 14 lesson is at `/lessons/sdg14`
+- Each quiz is available under `/quiz/[topic]`
+- Navigation buttons throughout the app allow moving back to lessons and home
+
+---
+
+## Getting Started (Development)
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/yourusername/BlueTutor.git
+cd BlueTutor
+## Credits
+
+Developed by **Eunice Medalla Gojit**  
+Created with [Next.js](https://nextjs.org) and styled using [Tailwind CSS](https://tailwindcss.com)  
