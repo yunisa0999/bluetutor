@@ -15,7 +15,7 @@ bun dev
 ```
 # BlueTutor – SDG 14: Life Below Water
 
-**BlueTutor** is a web app developed by **Eunice Medalla Gojit** to educate users about **Sustainable Development Goal 14 (Life Below Water)**. The app provides an interactive and readable lesson page about ocean conservation, marine biodiversity, and actionable steps to protect marine life.
+**BlueTutor** is a web app developed by **Eunice Medalla** to educate users about **Sustainable Development Goal 14 (Life Below Water)**. The app provides an interactive and readable lesson page about ocean conservation, marine biodiversity, and actionable steps to protect marine life.
 
 ---
 
