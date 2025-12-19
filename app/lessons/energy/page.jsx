@@ -53,7 +53,7 @@ export default function EnergyLesson() {
           <ul className="list-disc list-inside mb-6">
             <li>Install solar panels or support community renewable energy projects.</li>
             <li>Advocate for clean energy policies in your city or country.</li>
-            <li>Use energy-efficient appliances and reduce energy consumption at home.</li>
+            <li>Use energy efficient appliances and reduce energy consumption at home.</li>
             <li>Educate others about the benefits of renewable energy and sustainability.</li>
             <li>Support companies and initiatives that focus on renewable energy development.</li>
           </ul>

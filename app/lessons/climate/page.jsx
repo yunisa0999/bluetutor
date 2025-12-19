@@ -21,7 +21,7 @@ export default function ClimateLesson() {
            <h2 className="text-2xl font-semibold text-yellow-300 mt-6 mb-4">Why Climate Change Matters</h2>
           <ul className="list-disc list-inside mb-6">
             <li>Rising sea levels threaten coastal communities and habitats.</li>
-            <li>Extreme weather events—storms, floods, and droughts—disrupt lives and economies.</li>
+            <li>Extreme weather events storms, floods, and droughts disrupt lives and economies.</li>
             <li>Climate change leads to biodiversity loss and ecosystem degradation.</li>
             <li>Affects food security and water availability worldwide.</li>
             <li>Impacts human health through heatwaves, disease spread, and food shortages.</li>
@@ -30,7 +30,7 @@ export default function ClimateLesson() {
            <h2 className="text-2xl font-semibold text-yellow-300 mt-6 mb-4">Key Challenges</h2>
           <ul className="list-disc list-inside mb-6">
             <li>Rising greenhouse gas emissions from energy, transport, and industry.</li>
-            <li>Deforestation and land-use changes reducing carbon sinks.</li>
+            <li>Deforestation and land use changes reducing carbon sinks.</li>
             <li>Unsustainable agricultural and industrial practices.</li>
             <li>Lack of global coordination and policy enforcement.</li>
             <li>Climate change exacerbates social and economic inequalities.</li>
@@ -54,7 +54,7 @@ export default function ClimateLesson() {
           </ul>
 
           <p>
-            Collective action is essential—every small step contributes to mitigating climate change and protecting our planet for future generations.
+            Collective action is essential every small step contributes to mitigating climate change and protecting our planet for future generations.
           </p>
         </div>
 

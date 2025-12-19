@@ -44,7 +44,7 @@ export default function MarineLesson() {
 
            <h2 className="text-2xl font-semibold text-cyan-300 mt-6 mb-4">How You Can Help</h2>
           <ul className="list-disc list-inside mb-6">
-            <li>Reduce single-use plastics and recycle responsibly.</li>
+            <li>Reduce single use plastics and recycle responsibly.</li>
             <li>Support sustainable seafood and local fisheries.</li>
             <li>Participate in beach clean-ups and conservation projects.</li>
             <li>Educate others about ocean health and SDG 14.</li>
