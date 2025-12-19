@@ -69,5 +69,5 @@ git clone https://github.com/yourusername/BlueTutor.git
 cd BlueTutor
 ## Credits
 
-Developed by **Eunice Medalla Gojit**  
+Developed by **Eunice Medalla**  
 Created with [Next.js](https://nextjs.org) and styled using [Tailwind CSS](https://tailwindcss.com)  
